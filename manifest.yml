@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Farmer
+  host: Farmer
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-0s
+  - Farmer-cloudantNoSQLDB
+  - Weather Company Data-FarmSake
+  - Business Rules-FarmSake
